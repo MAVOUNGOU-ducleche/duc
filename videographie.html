@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mes Vidéos</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+
+    h2 {
+      text-align: center;
+      color: #1e1e2f;
+    }
+
+    .video-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .video-box {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .video-box:hover {
+      transform: translateY(-5px);
+    }
+
+    video {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .youtube-links {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .youtube-links a {
+      display: inline-block;
+      margin: 0 1rem;
+      padding: 0.7rem 1.5rem;
+      background: #ff0000;
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .youtube-links a:hover {
+      background: #cc0000;
+    }
+   
+  </style>
+</head>
+<body>
+
+  <h2>Mes Réalisations Vidéo</h2>
+
+  <div class="video-container" id="videoContainer">
+    
+    <div class="video-box">
+      <video controls>
+        <source src="videos/Teaser Adorons JESUS  Nadege Mbuma ,Femme Thamar, Rodrigue Obanda,Dorcas Mampouya, Eunice Manyanga.mp4" type="video/mp4">
+        Votre navigateur ne prend pas en charge la vidéo.
+      </video>
+    </div>
+  </div>
+
+  <div class="youtube-links">
+    <a href="https://youtu.be/ve1T6YOf6Hc?si=qPFQxWl6tqz2jEFb" target="_blank">Voir sur YouTube 1</a>
+    <a href="https://youtu.be/L6eicpWnDp4?si=MnRrLoqyI4cNSiwu" target="_blank">Voir sur YouTube 2</a>
+    <a href="http://www.youtube.com/@destargospel" target="_blank">Voir sur YouTube 2</a>
+  </div>
+
+  <script>
+    // Tu peux ajouter ici des scripts pour gérer des actions (comme filtrer, charger dynamiquement, etc.)
+    console.log("Section vidéo chargée !");
+  </script>
+
+
+
+</body>
+</html>
